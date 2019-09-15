@@ -41,11 +41,11 @@ func main() {
 
 这里我们运行go install， 可以发现GOPATH目录下多了一个bin文件，里面正是hello.go的可执行文件：
 
-![1568516315476](C:\Users\JUN\Desktop\img\view_bin.png)
+![1568516315476](https://github.com/farthjun/Hello-Go-/blob/master/img/view_bin.png?raw=true)
 
 直接运行hello：
 
-![1568516376418](C:\Users\JUN\Desktop\img\hello.png)
+![1568516376418](https://github.com/farthjun/Hello-Go-/blob/master/img/hello.png?raw=true)
 
 ***
 
@@ -98,13 +98,13 @@ func main(){
 
 再使用go install命令来安装hello程序，此时stringutil包也会被自动安装。再运行hello：
 
-![1568517087251](C:\Users\JUN\Desktop\img\hello_go.png)
+![1568517087251](https://github.com/farthjun/Hello-Go-/blob/master/img/hello_go.png?raw=true)
 
 字符串被成功反转，证明我们的库是有效的。
 
 做完这些，我们的工作空间又多了一个目录pkg：
 
-![1568517260376](C:\Users\JUN\Desktop\img\pkg.png)
+![1568517260376](https://github.com/farthjun/Hello-Go-/blob/master/img/pkg.png?raw=true)
 
 此时，我们的工作空间结构如下(同本github项目的目录树)：
 
@@ -161,6 +161,6 @@ func TestReverse(t *testing.T){
 $ go test
 ```
 
-![1568517529002](C:\Users\JUN\Desktop\img\test.png)
+![1568517529002](https://github.com/farthjun/Hello-Go-/blob/master/img/test.png?raw=true)
 
 说明通过测试。
